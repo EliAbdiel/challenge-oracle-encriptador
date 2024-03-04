@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="container-header">
+            <div class="header">
+                <img src="imagenes/Logo.png" alt="" class="logo">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article class="container">
+
+            <section class="left" id="left">
+                <textarea class="input-textarea" id="textoInput" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <div class="content-botones">
+                    <span class="info">
+                        <img src="imagenes/bi_exclamation-circle-fill.png" alt="Advertencia">
+                        solo letras minúsculas y sin acentos
+                    </span>
+                    <div class="botones">
+                        <button id="button-encriptar" class="button-encriptar">Encriptar</button>
+                        <button id="button-desencriptar" class="button-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="right" id="rigth">
+                <img id="munieco" class="munieco" src="imagenes/Munieco.png">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="button-copiar button-ocultar" id="button-copiar">Copiar</button>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="footer ">
+        <p class="creador">Create by 
+            <a href="https://EliAbdiel.github.io/" target="_blank" class="usuario">
+            @EliAbdiel
+        </a> - 2024</p>
+        <div class="container-links">
+            <a href="https://github.com/EliAbdiel" target="_blank">
+                <img class="links" src="imagenes/bxl-github.svg"/>
+            </a>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
